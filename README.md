@@ -26,7 +26,7 @@ This is the first prototype of an Android Scientific Calculator app. It supports
 ## Technologies Used
 
 - Android SDK
--Java for app logic
+- Java for app logic (Kotlin can also be used)
 - Material Design components
 
 ## License
