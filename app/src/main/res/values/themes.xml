@@ -1,9 +1,32 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
+    <!-- App theme -->
     <style name="Base.Theme.AndroidSciCalculator" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@color/calculator_bg</item>
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="android:statusBarColor">@color/calculator_bg</item>
+        <item name="android:navigationBarColor">@color/calculator_bg</item>
     </style>
 
     <style name="Theme.AndroidSciCalculator" parent="Base.Theme.AndroidSciCalculator" />
+
+    <!-- Calculator buttons: bordered dark keys -->
+    <style name="CalcButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:background">@drawable/button_bg</item>
+    </style>
+
+    <!-- Accent key (e.g., "=") -->
+    <style name="CalcButtonAccent" parent="CalcButton">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/button_bg_accent</item>
+    </style>
+
 </resources>

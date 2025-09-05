@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- App brand -->
+    <color name="brand_primary">#2196F3</color>
+    <color name="brand_accent">#FFC107</color>
+
+    <!-- Calculator palette -->
+    <color name="calculator_bg">#101010</color>
+    <color name="display_bg">#1E1E1E</color>
+    <color name="key_fill">#000000</color>
+    <color name="key_border">#6B6B6B</color>
+    <color name="key_accent_fill">#FFC107</color>
+    <color name="key_accent_border">#E0A800</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_bg">#2C2C2C</color>
+    <color name="accent_orange">#FFB300</color>
+
 </resources>

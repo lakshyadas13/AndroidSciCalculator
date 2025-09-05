@@ -1,0 +1,29 @@
+<resources>
+    <!-- Style for number buttons -->
+    <style name="CalcButton.Number" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="backgroundTint">@color/teal_700</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Style for operator buttons -->
+    <style name="CalculatorButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@android:color/darker_gray</item>
+        <item name="backgroundTint">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
