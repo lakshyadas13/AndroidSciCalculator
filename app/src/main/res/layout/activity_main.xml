@@ -15,6 +15,7 @@
         android:background="@drawable/display_bg"
         android:gravity="end|center_vertical"
         android:padding="16dp"
+        android:layout_marginTop="32dp"
         android:text="0"
         android:textColor="@android:color/white"
         android:textSize="34sp"
