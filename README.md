@@ -21,10 +21,13 @@ This is the first working prototype with a clean, user-friendly interface design
   ➝ Custom background styles (`display_bg.xml`, `button_bg.xml`)  
   ➝ Responsive and clean layout  
 
-- **Upcoming Improvements**  
+- **Improvements**  
   - Extra conversion features (e.g., Celsius ↔ Fahrenheit, Kg ↔ Lb)  
   - Dark mode support  
-  - History of calculations  
+ 
+  
+- **Upcoming Improvements**
+  - History of calculations
 
 ---
 
