@@ -1,38 +1,35 @@
-# Android Scientific Calculator (Prototype)
+# Android Scientific Calculator (Version 2.0)
 
-This is the first prototype of an Android Scientific Calculator app. It supports basic arithmetic operations and advanced scientific functions like trigonometry, exponents, logarithms, and roots.
-
-## Features
-
-- Basic arithmetic: addition, subtraction, multiplication, division
-- Advanced scientific functions: sine, cosine, tangent, logarithms, powers, square roots
-- User-friendly, clean UI for quick calculations
-- Suitable for students and STEM users needing a handy scientific calculator on the go
-
-## Installation
-
-1. Clone the repository:  
-    ```
-    git clone https://github.com/yourusername/android-scientific-calculator.git
-    ```
-2. Open the project in Android Studio and build the APK.
-
-## Usage
-
-- Launch the app to access the calculator interface.
-- Use the buttons for both basic and scientific calculations.
-- It’s an early prototype, further features and UI improvements are planned.
-
-## Technologies Used
-
-- Android SDK
-- Java for app logic (Kotlin can also be used)
-- Material Design components
-
-## License
-
-[MIT](LICENSE)
+An Android-based **Scientific Calculator App** that supports both **basic arithmetic** and **advanced scientific operations**.  
+This is the first working prototype with a clean, user-friendly interface designed for students and STEM users.
 
 ---
 
-*This is an initial prototype; feedback and contributions are welcome!*
+## ✨ Features
+
+- **Basic Arithmetic**  
+  ➝ Addition, subtraction, multiplication, division  
+
+- **Scientific Functions**  
+  ➝ Trigonometry (sin, cos, tan)  
+  ➝ Logarithms (ln, log10)  
+  ➝ Exponents and powers  
+  ➝ Square roots  
+
+- **UI Highlights**  
+  ➝ Material Design buttons  
+  ➝ Custom background styles (`display_bg.xml`, `button_bg.xml`)  
+  ➝ Responsive and clean layout  
+
+- **Upcoming Improvements**  
+  - Extra conversion features (e.g., Celsius ↔ Fahrenheit, Kg ↔ Lb)  
+  - Dark mode support  
+  - History of calculations  
+
+---
+
+## 🚀 Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/android-scientific-calculator.git
