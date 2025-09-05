@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="12dp"
+    android:padding="10dp"
     android:background="@color/calculator_bg">
 
     <!-- Display -->
@@ -26,7 +26,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="48dp"
         android:columnCount="4"
         android:alignmentMode="alignMargins"
         android:useDefaultMargins="true">
@@ -70,11 +70,18 @@
         <!-- Row 5 -->
         <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btn0" android:text="0" />
         <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnDot" android:text="." />
-        <com.google.android.material.button.MaterialButton style="@style/CalcButtonAccent" android:id="@+id/btnEqual" android:text="=" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEqual"
+            style="@style/CalcButton.Equal"
+            android:text="="/>
         <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnSin" android:text="sin" />
 
         <!-- Row 6 -->
-        <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnCos" android:text="cos" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCos"
+            style="@style/CalcButton"
+            android:layout_height="wrap_content"
+            android:text="cos" />
         <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnTan" android:text="tan" />
         <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnLog" android:text="log" />
         <com.google.android.material.button.MaterialButton style="@style/CalcButton" android:id="@+id/btnLn" android:text="ln" />
